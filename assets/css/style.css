@@ -12,11 +12,12 @@
  #header {
  	width:100%;
  	padding:0px;
- 	background:white;
- 	border-bottom:
+ 	background-color:#ffffff;
+ 	border-bottom:2px solid #cccccc;
  	margin-bottom:20px;
  	position:relative;
- 	overflow: hidden;
+	overflow: hidden;
+	font-family: 'Georgia','Times New Roman', 'Times', serif;
 
 
  }
@@ -26,9 +27,10 @@
 	padding:20px;
 	font-size:36px;
 	color:white;
-	background:teal;
+	background:#4aaaa5;
 	left:195px;
 	float:left;
+	font-family: 'Georgia','Times New Roman', 'Times', serif;
 
 
 }
@@ -67,15 +69,16 @@
 	position:relative;
 	bottom:8px;
 	line-height:40px;
+	font-family:'Arial', 'Helvetica Neue',Arial, Helvetica, sans-serif;
 }
 
 li:hover {
 	background-color:lightgrey;
-	font-size:32px;
+	font-size:28px;
 }
 
 a:visted {
-	color:black;
+	color:#777777;
 }
 
 
@@ -84,11 +87,11 @@ a:link {
 }
 
 a {
-	color:black;
+	color:#777777;
 }
 
 .active {
-	background-color:teal;
+	background-color:#4aaaa5;
 	color:white;
 }
 
@@ -98,18 +101,25 @@ a {
  	height:4000px;
  	margin-right: auto;
  	margin-left: auto;
- 	background:white;
+ 	background-color:#ffffff;
  	margin-bottom:20px;
  	padding:20px;
- 	margin-top:20px;
+	margin-top:20px;
+	border:2px solid #dddddd;
+	font-family:'Arial', 'Helvetica Neue',Arial, Helvetica, sans-serif;	 
+ }
+
+ #section h1 {
+	font-family: 'Georgia','Times New Roman', 'Times', serif;
  }
 
  #footer {
  	width:100%;
  	padding:20px;
- 	background:darkgrey;
- 	border-top:5px solid teal;
+ 	background-color:#666666;
+ 	border-top:8px solid #4aaaa5;
  	position:sticky;
  	bottom:0;
- 	text-align:center;
+	text-align:center;
+	font-family:'Arial', 'Helvetica Neue',Arial, Helvetica, sans-serif;
  }
