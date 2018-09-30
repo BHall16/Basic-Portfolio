@@ -2,10 +2,13 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-image: url(../images/hexabump/hexabump.png)
+}
+
 #container {
 	width:100%;
 	height:auto;
-	background:lightgrey;
 	overflow-x:hidden;
 	margin:0px;
 }
@@ -13,7 +16,7 @@
  	width:100%;
  	padding:0px;
  	background-color:#ffffff;
- 	border-bottom:2px solid #cccccc;
+ 	border-bottom:1px solid #cccccc;
  	margin-bottom:20px;
  	position:relative;
 	overflow: hidden;
@@ -105,7 +108,7 @@ a {
  	margin-bottom:20px;
  	padding:20px;
 	margin-top:20px;
-	border:2px solid #dddddd;
+	border:1px solid #dddddd;
 	font-family:'Arial', 'Helvetica Neue',Arial, Helvetica, sans-serif;	 
  }
 
