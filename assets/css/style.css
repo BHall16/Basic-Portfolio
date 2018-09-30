@@ -41,7 +41,7 @@ body {
 #nav {
 	padding:0;
 	float:right;
-	font-size: 24px;
+	font-size: 22px;
 	display:block;
 	position:relative;
 	right:43px;
@@ -75,7 +75,7 @@ body {
 	font-family:'Arial', 'Helvetica Neue',Arial, Helvetica, sans-serif;
 }
 
-li:hover {
+nav li:hover {
 	background-color:lightgrey;
 	font-size:28px;
 }
@@ -118,7 +118,7 @@ a {
  }
 
  #footer {
- 	width:100%;
+	width:100%;
  	padding:20px;
  	background-color:#666666;
  	border-top:8px solid #4aaaa5;
@@ -126,7 +126,9 @@ a {
  	bottom:0;
 	text-align:center;
 	font-family:'Arial', 'Helvetica Neue',Arial, Helvetica, sans-serif;
-	clear:both;
+	
+
+
  }
 
  input[type=text], select, textarea {
@@ -168,4 +170,15 @@ input[type=submit]:hover {
 	color:white;
 	text-align:center;
 	padding:10px;
+}
+
+#picture {
+	float:left;
+	margin-right:30px;
+}
+
+#paragraph {
+	font-size:16px;
+	line-height:20px;
+	
 }
