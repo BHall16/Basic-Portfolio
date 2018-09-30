@@ -101,7 +101,7 @@ a {
 
  #section {
  	width:960px;
- 	height:4000px;
+ 	height:auto;
  	margin-right: auto;
  	margin-left: auto;
  	background-color:#ffffff;
@@ -110,6 +110,7 @@ a {
 	margin-top:20px;
 	border:1px solid #dddddd;
 	font-family:'Arial', 'Helvetica Neue',Arial, Helvetica, sans-serif;	 
+	overflow:hidden;
  }
 
  #section h1 {
@@ -125,4 +126,46 @@ a {
  	bottom:0;
 	text-align:center;
 	font-family:'Arial', 'Helvetica Neue',Arial, Helvetica, sans-serif;
+	clear:both;
  }
+
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 40px;
+    border: none;
+	cursor: pointer;
+	font-size:18px;
+}
+
+input[type=submit]:hover {
+    background-color:teal;
+}
+
+.photo {
+	display:inline;
+	margin:10px;
+	float:left;
+	position:relative;
+}
+
+.textbox {
+	position:absolute;
+	width:100%;
+	background-color:#4aaaa5;
+	bottom:30px;
+	left:0px;
+	color:white;
+	text-align:center;
+	padding:10px;
+}
